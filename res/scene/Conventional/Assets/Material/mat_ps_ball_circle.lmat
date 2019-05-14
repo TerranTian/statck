@@ -7,21 +7,21 @@
 				"cull":0,
 				"blend":1,
 				"srcBlend":770,
-				"dstBlend":1,
+				"dstBlend":771,
 				"depthWrite":false,
 				"depthTest":515
 			}
 		],
-		"name":"parts_add",
+		"name":"mat_ps_ball_circle",
 		"alphaTest":false,
 		"renderQueue":3000,
 		"textures":[
 			{
 				"name":"texture",
-				"path":"../Texture2D/circle64.png",
+				"path":"../Texture2D/circle_bar_blur.png",
 				"constructParams":[
-					64,
-					64,
+					256,
+					256,
 					1,
 					false
 				],
@@ -53,8 +53,6 @@
 				]
 			}
 		],
-		"defines":[
-			"ADDTIVEFOG"
-		]
+		"defines":[]
 	}
 }

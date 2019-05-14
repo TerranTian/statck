@@ -12,23 +12,23 @@
 				"depthTest":515
 			}
 		],
-		"name":"parts_alpha",
+		"name":"mat_confetti",
 		"alphaTest":false,
 		"renderQueue":3000,
 		"textures":[
 			{
 				"name":"texture",
-				"path":"../Texture2D/circle64.png",
+				"path":"../Texture2D/confetti.png",
 				"constructParams":[
-					64,
-					64,
+					256,
+					256,
 					1,
-					false
+					true
 				],
 				"propertyParams":{
 					"filterMode":1,
-					"wrapModeU":1,
-					"wrapModeV":1,
+					"wrapModeU":0,
+					"wrapModeV":0,
 					"anisoLevel":1
 				}
 			}

@@ -7,21 +7,21 @@
 				"cull":0,
 				"blend":1,
 				"srcBlend":770,
-				"dstBlend":771,
+				"dstBlend":1,
 				"depthWrite":false,
 				"depthTest":515
 			}
 		],
-		"name":"parts_finish",
+		"name":"mat_ps_add",
 		"alphaTest":false,
 		"renderQueue":3000,
 		"textures":[
 			{
 				"name":"texture",
-				"path":"../Texture2D/circle64.png",
+				"path":"../Texture2D/circle.png",
 				"constructParams":[
-					64,
-					64,
+					72,
+					72,
 					1,
 					false
 				],
@@ -46,13 +46,15 @@
 			{
 				"name":"color",
 				"value":[
-					0.5,
-					0.5,
-					0.5,
+					0.6981132,
+					0.6981132,
+					0.6981132,
 					0.5
 				]
 			}
 		],
-		"defines":[]
+		"defines":[
+			"ADDTIVEFOG"
+		]
 	}
 }

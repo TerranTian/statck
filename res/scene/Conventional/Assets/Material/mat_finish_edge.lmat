@@ -2,7 +2,7 @@
 	"version":"LAYAMATERIAL:02",
 	"props":{
 		"type":"Laya.BlinnPhongMaterial",
-		"name":"matFinish",
+		"name":"mat_finish_edge",
 		"renderStates":[
 			{
 				"cull":2,
@@ -17,13 +17,13 @@
 		"alphaTest":false,
 		"alphaTestValue":0.5,
 		"renderQueue":2000,
-		"albedoIntensity":1.28,
+		"albedoIntensity":2.21,
 		"enableLighting":true,
-		"shininess":0.01,
+		"shininess":0.019,
 		"textures":[
 			{
 				"name":"albedoTexture",
-				"path":"../Texture2D/finish_texture.jpg",
+				"path":"../Texture2D/finish_edge.jpg",
 				"constructParams":[
 					256,
 					256,
@@ -42,18 +42,18 @@
 			{
 				"name":"tilingOffset",
 				"value":[
-					2.38,
-					5,
-					0,
-					0
+					18,
+					18,
+					2.26,
+					1.03
 				]
 			},
 			{
 				"name":"specularColor",
 				"value":[
-					0.5,
-					0.5,
-					0.5
+					0.8113208,
+					0.8113208,
+					0.8113208
 				]
 			},
 			{

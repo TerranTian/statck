@@ -28,27 +28,27 @@
 					"isStatic":false,
 					"layer":0,
 					"position":[
-						7.56,
-						0,
+						5.81,
+						0.38,
 						0
 					],
 					"rotation":[
-						-0.07730901,
-						0.9092633,
-						0.1957592,
-						0.3590852
+						-0.04919233,
+						0.9505233,
+						0.2046424,
+						0.2284887
 					],
 					"scale":[
 						1,
 						1,
 						1
 					],
-					"intensity":1,
+					"intensity":0.97,
 					"lightmapBakedType":1,
 					"color":[
 						1,
-						0.9568627,
-						0.8392157
+						1,
+						1
 					]
 				},
 				"components":[],
@@ -57,7 +57,7 @@
 			{
 				"type":"Sprite3D",
 				"props":{
-					"name":"GAME",
+					"name":"Game",
 					"active":true,
 					"isStatic":false,
 					"layer":0,
@@ -83,7 +83,7 @@
 					{
 						"type":"Sprite3D",
 						"props":{
-							"name":"MainCamera",
+							"name":"camera_wapper",
 							"active":true,
 							"isStatic":false,
 							"layer":0,
@@ -109,19 +109,19 @@
 							{
 								"type":"Camera",
 								"props":{
-									"name":"MainCamera1",
+									"name":"camera",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
 										0,
-										1.7,
+										2.12,
 										-5.29
 									],
 									"rotation":[
 										0,
-										0.9762961,
-										0.2164396,
+										0.97237,
+										0.2334454,
 										0
 									],
 									"scale":[
@@ -153,14 +153,14 @@
 							{
 								"type":"ShuriKenParticle3D",
 								"props":{
-									"name":"ParticleSystem",
+									"name":"ps_background",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
 										0,
-										-12.87,
-										5.66
+										-6.73,
+										2.68
 									],
 									"rotation":[
 										0,
@@ -182,9 +182,9 @@
 									"startDelayMin":0,
 									"startDelayMax":0,
 									"startLifetimeType":2,
-									"startLifetimeConstant":7,
-									"startLifetimeConstantMin":5,
-									"startLifetimeConstantMax":7,
+									"startLifetimeConstant":6,
+									"startLifetimeConstantMin":4,
+									"startLifetimeConstantMax":6,
 									"startLifetimeGradient":{
 										"startLifetimes":[]
 									},
@@ -195,13 +195,13 @@
 										"startLifetimes":[]
 									},
 									"startSpeedType":2,
-									"startSpeedConstant":1,
-									"startSpeedConstantMin":0.2,
-									"startSpeedConstantMax":1,
+									"startSpeedConstant":0.4,
+									"startSpeedConstantMin":0.3,
+									"startSpeedConstantMax":0.4,
 									"threeDStartSize":false,
 									"startSizeType":2,
 									"startSizeConstant":0.4,
-									"startSizeConstantMin":0.15,
+									"startSizeConstantMin":0.23,
 									"startSizeConstantMax":0.4,
 									"startSizeConstantSeparate":[
 										0.4,
@@ -209,7 +209,7 @@
 										1
 									],
 									"startSizeConstantMinSeparate":[
-										0.15,
+										0.23,
 										1,
 										1
 									],
@@ -219,24 +219,24 @@
 										1
 									],
 									"threeDStartRotation":false,
-									"startRotationType":0,
-									"startRotationConstant":0,
-									"startRotationConstantMin":0,
-									"startRotationConstantMax":0,
+									"startRotationType":2,
+									"startRotationConstant":0.5,
+									"startRotationConstantMin":0.15,
+									"startRotationConstantMax":0.5,
 									"startRotationConstantSeparate":[
 										0,
 										0,
-										0
+										-0.5
 									],
 									"startRotationConstantMinSeparate":[
 										0,
 										0,
-										0
+										-0.15
 									],
 									"startRotationConstantMaxSeparate":[
 										0,
 										0,
-										0
+										-0.5
 									],
 									"randomizeRotationDirection":0,
 									"startColorType":2,
@@ -244,19 +244,19 @@
 										1,
 										1,
 										1,
-										0.1254902
+										0.1137255
 									],
 									"startColorConstantMin":[
 										1,
 										1,
 										1,
-										0.05882353
+										0.04705882
 									],
 									"startColorConstantMax":[
 										1,
 										1,
 										1,
-										0.1254902
+										0.1137255
 									],
 									"gravity":[
 										0,
@@ -266,27 +266,27 @@
 									"gravityModifier":0,
 									"simulationSpace":0,
 									"scaleMode":1,
-									"playOnAwake":false,
+									"playOnAwake":true,
 									"maxParticles":1000,
 									"autoRandomSeed":true,
 									"randomSeed":0,
 									"emission":{
 										"enable":true,
-										"emissionRate":2,
+										"emissionRate":3,
 										"emissionRateTip":"Time",
 										"bursts":[]
 									},
 									"shape":{
 										"enable":true,
 										"shapeType":2,
-										"sphereRadius":4.72,
+										"sphereRadius":4.7,
 										"sphereEmitFromShell":false,
 										"sphereRandomDirection":0,
-										"hemiSphereRadius":4.72,
+										"hemiSphereRadius":4.7,
 										"hemiSphereEmitFromShell":false,
 										"hemiSphereRandomDirection":0,
-										"coneAngle":30.95,
-										"coneRadius":4.72,
+										"coneAngle":30,
+										"coneRadius":4.7,
 										"coneLength":5,
 										"coneEmitType":0,
 										"coneRandomDirection":0,
@@ -294,7 +294,7 @@
 										"boxY":1,
 										"boxZ":1,
 										"boxRandomDirection":0,
-										"circleRadius":4.72,
+										"circleRadius":4.7,
 										"circleArc":360,
 										"circleEmitFromEdge":false,
 										"circleRandomDirection":0
@@ -304,24 +304,24 @@
 										"color":{
 											"type":1,
 											"constant":[
-												1204094,
-												4.591495E-41,
-												-2.157469E+20,
-												4.591495E-41
+												0.1495207,
+												4.591635E-41,
+												1.290254E+17,
+												4.591635E-41
 											],
 											"gradient":{
 												"alphas":[
 													{
 														"key":0,
-														"value":0
+														"value":0.3372549
 													},
 													{
-														"key":0.1752804,
+														"key":0.1617609,
 														"value":1
 													},
 													{
-														"key":0.5976959,
-														"value":1
+														"key":0.7705958,
+														"value":0.7921569
 													},
 													{
 														"key":1,
@@ -348,30 +348,30 @@
 												]
 											},
 											"constantMin":[
-												1158323,
+												0.1440643,
 												1.401298E-45,
-												-2.160619E+20,
-												4.591495E-41
+												1.291791E+17,
+												4.591635E-41
 											],
 											"constantMax":[
-												1204094,
-												4.591495E-41,
-												-2.157469E+20,
-												4.591495E-41
+												0.1495207,
+												4.591635E-41,
+												1.290254E+17,
+												4.591635E-41
 											],
 											"gradientMax":{
 												"alphas":[
 													{
 														"key":0,
-														"value":0
+														"value":0.3372549
 													},
 													{
-														"key":0.1752804,
+														"key":0.1617609,
 														"value":1
 													},
 													{
-														"key":0.5976959,
-														"value":1
+														"key":0.7705958,
+														"value":0.7921569
 													},
 													{
 														"key":1,
@@ -406,7 +406,7 @@
 									"sortingFudge":0,
 									"material":{
 										"type":"Laya.ShurikenParticleMaterial",
-										"path":"Assets/Material/bg_parts.lmat"
+										"path":"Assets/Material/mat_ps_bg.lmat"
 									}
 								},
 								"components":[],
@@ -417,7 +417,7 @@
 					{
 						"type":"Sprite3D",
 						"props":{
-							"name":"Ball",
+							"name":"ball",
 							"active":true,
 							"isStatic":false,
 							"layer":0,
@@ -460,12 +460,12 @@
 						],
 						"child":[
 							{
-								"type":"ShuriKenParticle3D",
+								"type":"TrailSprite3D",
 								"props":{
-									"name":"Particles",
+									"name":"trail",
 									"active":true,
 									"isStatic":false,
-									"layer":10,
+									"layer":0,
 									"position":[
 										0,
 										0,
@@ -478,12 +478,100 @@
 										-1
 									],
 									"scale":[
-										0.4,
-										0.4,
-										0.4
+										1,
+										1,
+										1
+									],
+									"time":0.23,
+									"minVertexDistance":0.1,
+									"widthMultiplier":0.4,
+									"textureMode":0,
+									"widthCurve":[
+										{
+											"time":0,
+											"inTangent":0,
+											"outTangent":0,
+											"value":1
+										},
+										{
+											"time":0.009868622,
+											"inTangent":-0.5648951,
+											"outTangent":-0.5648951,
+											"value":1
+										},
+										{
+											"time":1,
+											"inTangent":-0.173516,
+											"outTangent":-0.173516,
+											"value":0
+										}
+									],
+									"colorGradient":{
+										"mode":0,
+										"colorKeys":[
+											{
+												"time":0,
+												"value":[
+													1,
+													1,
+													1
+												]
+											},
+											{
+												"time":1,
+												"value":[
+													1,
+													1,
+													1
+												]
+											}
+										],
+										"alphaKeys":[
+											{
+												"time":0,
+												"value":0.627451
+											},
+											{
+												"time":1,
+												"value":0
+											}
+										]
+									},
+									"materials":[
+										{
+											"type":"Laya.TrailMaterial",
+											"path":"Assets/Material/mat_trail.lmat"
+										}
+									]
+								},
+								"components":[],
+								"child":[]
+							},
+							{
+								"type":"ShuriKenParticle3D",
+								"props":{
+									"name":"ps_spray",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										0,
+										-0.859,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
 									],
 									"isPerformanceMode":true,
-									"duration":0.11,
+									"duration":0.12,
 									"looping":false,
 									"prewarm":false,
 									"startDelayType":0,
@@ -491,9 +579,9 @@
 									"startDelayMin":0,
 									"startDelayMax":0,
 									"startLifetimeType":2,
-									"startLifetimeConstant":0.7,
+									"startLifetimeConstant":0.8,
 									"startLifetimeConstantMin":0.3,
-									"startLifetimeConstantMax":0.7,
+									"startLifetimeConstantMax":0.8,
 									"startLifetimeGradient":{
 										"startLifetimes":[]
 									},
@@ -505,7 +593,7 @@
 									},
 									"startSpeedType":2,
 									"startSpeedConstant":3.2,
-									"startSpeedConstantMin":2,
+									"startSpeedConstantMin":2.4,
 									"startSpeedConstantMax":3.2,
 									"threeDStartSize":false,
 									"startSizeType":2,
@@ -527,7 +615,7 @@
 										1,
 										1
 									],
-									"threeDStartRotation":true,
+									"threeDStartRotation":false,
 									"startRotationType":2,
 									"startRotationConstant":0,
 									"startRotationConstantMin":0,
@@ -538,8 +626,8 @@
 										0
 									],
 									"startRotationConstantMinSeparate":[
-										999.0001,
-										-999.0001,
+										998.9999,
+										-998.9999,
 										0
 									],
 									"startRotationConstantMaxSeparate":[
@@ -556,10 +644,10 @@
 										1
 									],
 									"startColorConstantMin":[
-										1158323,
+										0.1440643,
 										1.401298E-45,
-										-2.160619E+20,
-										4.591495E-41
+										1.291791E+17,
+										4.591635E-41
 									],
 									"startColorConstantMax":[
 										1,
@@ -573,7 +661,7 @@
 										0
 									],
 									"gravityModifier":1,
-									"simulationSpace":1,
+									"simulationSpace":0,
 									"scaleMode":1,
 									"playOnAwake":false,
 									"maxParticles":52,
@@ -620,8 +708,12 @@
 														"value":1
 													},
 													{
+														"key":0.9621212,
+														"value":0.002193451
+													},
+													{
 														"key":1,
-														"value":0
+														"value":0.002193451
 													}
 												]
 											},
@@ -632,8 +724,12 @@
 														"value":1
 													},
 													{
+														"key":0.9621212,
+														"value":0.002193451
+													},
+													{
 														"key":1,
-														"value":0
+														"value":0.002193451
 													}
 												]
 											},
@@ -683,8 +779,12 @@
 														"value":1
 													},
 													{
+														"key":0.9621212,
+														"value":0.002193451
+													},
+													{
 														"key":1,
-														"value":0
+														"value":0.002193451
 													}
 												]
 											},
@@ -698,8 +798,12 @@
 														"value":1
 													},
 													{
+														"key":0.9621212,
+														"value":0.002193451
+													},
+													{
 														"key":1,
-														"value":0
+														"value":0.002193451
 													}
 												]
 											},
@@ -741,7 +845,7 @@
 											"type":2,
 											"separateAxes":true,
 											"constant":0,
-											"constantMin":89.99998,
+											"constantMin":89.99999,
 											"constantMax":0,
 											"constantSeparate":[
 												0,
@@ -749,9 +853,9 @@
 												0
 											],
 											"constantMinSeparate":[
-												89.99998,
-												89.99998,
-												89.99998
+												89.99999,
+												89.99999,
+												89.99999
 											],
 											"constantMaxSeparate":[
 												0,
@@ -796,16 +900,15 @@
 											}
 										}
 									},
-									"renderMode":4,
+									"renderMode":0,
 									"stretchedBillboardCameraSpeedScale":0,
 									"stretchedBillboardSpeedScale":0,
 									"stretchedBillboardLengthScale":2,
 									"sortingFudge":0,
 									"material":{
 										"type":"Laya.ShurikenParticleMaterial",
-										"path":"Assets/Material/matBall.lmat"
-									},
-									"meshPath":"Library/unity default resources-Sphere.lm"
+										"path":"Assets/Material/mat_ps_spray.lmat"
+									}
 								},
 								"components":[],
 								"child":[]
@@ -813,7 +916,7 @@
 							{
 								"type":"MeshSprite3D",
 								"props":{
-									"name":"Sphere",
+									"name":"skin_origin",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
@@ -837,7 +940,7 @@
 									"enableRender":true,
 									"materials":[
 										{
-											"path":"Assets/Material/mat1.lmat"
+											"path":"Assets/Material/mat_red.lmat"
 										}
 									]
 								},
@@ -847,7 +950,7 @@
 							{
 								"type":"ShuriKenParticle3D",
 								"props":{
-									"name":"ParticlesCircle",
+									"name":"ps_fire_start",
 									"active":true,
 									"isStatic":false,
 									"layer":10,
@@ -941,10 +1044,10 @@
 										1
 									],
 									"startColorConstantMin":[
-										1158323,
+										0.1440643,
 										1.401298E-45,
-										-2.160619E+20,
-										4.591495E-41
+										1.291791E+17,
+										4.591635E-41
 									],
 									"startColorConstantMax":[
 										1,
@@ -998,10 +1101,10 @@
 										"color":{
 											"type":1,
 											"constant":[
-												1204094,
-												4.591495E-41,
-												-2.157469E+20,
-												4.591495E-41
+												0.1495207,
+												4.591635E-41,
+												1.290254E+17,
+												4.591635E-41
 											],
 											"gradient":{
 												"alphas":[
@@ -1042,16 +1145,16 @@
 												]
 											},
 											"constantMin":[
-												1158323,
+												0.1440643,
 												1.401298E-45,
-												-2.160619E+20,
-												4.591495E-41
+												1.291791E+17,
+												4.591635E-41
 											],
 											"constantMax":[
-												1204094,
-												4.591495E-41,
-												-2.157469E+20,
-												4.591495E-41
+												0.1495207,
+												4.591635E-41,
+												1.290254E+17,
+												4.591635E-41
 											],
 											"gradientMax":{
 												"alphas":[
@@ -1227,7 +1330,7 @@
 									"sortingFudge":0,
 									"material":{
 										"type":"Laya.ShurikenParticleMaterial",
-										"path":"Assets/Material/parts_ball_circle.lmat"
+										"path":"Assets/Material/mat_ps_ball_circle.lmat"
 									}
 								},
 								"components":[],
@@ -1236,7 +1339,7 @@
 							{
 								"type":"ShuriKenParticle3D",
 								"props":{
-									"name":"ParticlesFire",
+									"name":"ps_fire",
 									"active":true,
 									"isStatic":false,
 									"layer":10,
@@ -1265,9 +1368,9 @@
 									"startDelayMin":0,
 									"startDelayMax":0,
 									"startLifetimeType":2,
-									"startLifetimeConstant":0.6,
+									"startLifetimeConstant":0.56,
 									"startLifetimeConstantMin":0.2,
-									"startLifetimeConstantMax":0.6,
+									"startLifetimeConstantMax":0.56,
 									"startLifetimeGradient":{
 										"startLifetimes":[]
 									},
@@ -1330,10 +1433,10 @@
 										1
 									],
 									"startColorConstantMin":[
-										1158323,
+										0.1440643,
 										1.401298E-45,
-										-2.160619E+20,
-										4.591495E-41
+										1.291791E+17,
+										4.591635E-41
 									],
 									"startColorConstantMax":[
 										1,
@@ -1355,7 +1458,7 @@
 									"randomSeed":0,
 									"emission":{
 										"enable":true,
-										"emissionRate":200,
+										"emissionRate":201,
 										"emissionRateTip":"Time",
 										"bursts":[]
 									},
@@ -1387,10 +1490,10 @@
 										"color":{
 											"type":3,
 											"constant":[
-												1204094,
-												4.591495E-41,
-												-2.157469E+20,
-												4.591495E-41
+												0.1495207,
+												4.591635E-41,
+												1.290254E+17,
+												4.591635E-41
 											],
 											"gradient":{
 												"alphas":[
@@ -1416,7 +1519,7 @@
 														"key":0,
 														"value":[
 															1,
-															0.3379264,
+															0.4730278,
 															0
 														]
 													},
@@ -1424,23 +1527,23 @@
 														"key":1,
 														"value":[
 															1,
-															0.9027058,
+															0.8787473,
 															0
 														]
 													}
 												]
 											},
 											"constantMin":[
-												1158323,
+												0.1440643,
 												1.401298E-45,
-												-2.160619E+20,
-												4.591495E-41
+												1.291791E+17,
+												4.591635E-41
 											],
 											"constantMax":[
-												1204094,
-												4.591495E-41,
-												-2.157469E+20,
-												4.591495E-41
+												0.1495207,
+												4.591635E-41,
+												1.290254E+17,
+												4.591635E-41
 											],
 											"gradientMin":{
 												"alphas":[
@@ -1504,7 +1607,7 @@
 														"key":0,
 														"value":[
 															1,
-															0.3379264,
+															0.4730278,
 															0
 														]
 													},
@@ -1512,7 +1615,7 @@
 														"key":1,
 														"value":[
 															1,
-															0.9027058,
+															0.8787473,
 															0
 														]
 													}
@@ -1654,7 +1757,7 @@
 									"sortingFudge":0,
 									"material":{
 										"type":"Laya.ShurikenParticleMaterial",
-										"path":"Assets/Material/parts_alpha.lmat"
+										"path":"Assets/Material/mat_ps_alpha.lmat"
 									}
 								},
 								"components":[],
@@ -1662,7 +1765,7 @@
 									{
 										"type":"ShuriKenParticle3D",
 										"props":{
-											"name":"ParticlesFire2",
+											"name":"fire",
 											"active":true,
 											"isStatic":false,
 											"layer":10,
@@ -1756,10 +1859,10 @@
 												1
 											],
 											"startColorConstantMin":[
-												1158323,
+												0.1440643,
 												1.401298E-45,
-												-2.160619E+20,
-												4.591495E-41
+												1.291791E+17,
+												4.591635E-41
 											],
 											"startColorConstantMax":[
 												1,
@@ -1813,10 +1916,10 @@
 												"color":{
 													"type":1,
 													"constant":[
-														1204094,
-														4.591495E-41,
-														-2.157407E+20,
-														4.591495E-41
+														0.1495207,
+														4.591635E-41,
+														1.290223E+17,
+														4.591635E-41
 													],
 													"gradient":{
 														"alphas":[
@@ -1857,16 +1960,16 @@
 														]
 													},
 													"constantMin":[
-														1158323,
+														0.1440643,
 														1.401298E-45,
-														-2.160619E+20,
-														4.591495E-41
+														1.291791E+17,
+														4.591635E-41
 													],
 													"constantMax":[
-														1204094,
-														4.591495E-41,
-														-2.157407E+20,
-														4.591495E-41
+														0.1495207,
+														4.591635E-41,
+														1.290223E+17,
+														4.591635E-41
 													],
 													"gradientMax":{
 														"alphas":[
@@ -2042,7 +2145,7 @@
 											"sortingFudge":0,
 											"material":{
 												"type":"Laya.ShurikenParticleMaterial",
-												"path":"Assets/Material/parts_add.lmat"
+												"path":"Assets/Material/mat_ps_add.lmat"
 											}
 										},
 										"components":[],
@@ -2055,7 +2158,7 @@
 					{
 						"type":"Sprite3D",
 						"props":{
-							"name":"ROAD",
+							"name":"stack",
 							"active":true,
 							"isStatic":false,
 							"layer":0,
@@ -2079,15 +2182,15 @@
 						"components":[],
 						"child":[
 							{
-								"type":"Sprite3D",
+								"type":"MeshSprite3D",
 								"props":{
-									"name":"CYLINDER",
+									"name":"cylinder",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
 										0,
-										0,
+										-5.21,
 										0
 									],
 									"rotation":[
@@ -2098,52 +2201,24 @@
 									],
 									"scale":[
 										1,
-										1,
+										6.1,
 										1
+									],
+									"meshPath":"Library/unity default resources-Cylinder.lm",
+									"enableRender":true,
+									"materials":[
+										{
+											"path":"Assets/Material/Default_Material.lmat"
+										}
 									]
 								},
 								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"Cylinder",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												0,
-												-5.21,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												6.1,
-												1
-											],
-											"meshPath":"Library/unity default resources-Cylinder.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/Default_Material.lmat"
-												}
-											]
-										},
-										"components":[],
-										"child":[]
-									}
-								]
+								"child":[]
 							},
 							{
 								"type":"Sprite3D",
 								"props":{
-									"name":"PARTS",
+									"name":"floors",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
@@ -2168,6 +2243,412 @@
 								"child":[]
 							}
 						]
+					},
+					{
+						"type":"ShuriKenParticle3D",
+						"props":{
+							"name":"ps_win",
+							"active":true,
+							"isStatic":false,
+							"layer":0,
+							"position":[
+								0,
+								-10.74,
+								0
+							],
+							"rotation":[
+								0.7071068,
+								0,
+								0,
+								-0.7071068
+							],
+							"scale":[
+								2,
+								2,
+								2
+							],
+							"isPerformanceMode":true,
+							"duration":5,
+							"looping":false,
+							"prewarm":false,
+							"startDelayType":0,
+							"startDelay":0,
+							"startDelayMin":0,
+							"startDelayMax":0,
+							"startLifetimeType":2,
+							"startLifetimeConstant":1.7,
+							"startLifetimeConstantMin":1.5,
+							"startLifetimeConstantMax":1.7,
+							"startLifetimeGradient":{
+								"startLifetimes":[]
+							},
+							"startLifetimeGradientMin":{
+								"startLifetimes":[]
+							},
+							"startLifetimeGradientMax":{
+								"startLifetimes":[]
+							},
+							"startSpeedType":2,
+							"startSpeedConstant":6,
+							"startSpeedConstantMin":3,
+							"startSpeedConstantMax":6,
+							"threeDStartSize":false,
+							"startSizeType":2,
+							"startSizeConstant":0.2,
+							"startSizeConstantMin":0.17,
+							"startSizeConstantMax":0.2,
+							"startSizeConstantSeparate":[
+								0.2,
+								1,
+								1
+							],
+							"startSizeConstantMinSeparate":[
+								0.17,
+								1,
+								1
+							],
+							"startSizeConstantMaxSeparate":[
+								0.2,
+								1,
+								1
+							],
+							"threeDStartRotation":false,
+							"startRotationType":2,
+							"startRotationConstant":360,
+							"startRotationConstantMin":0,
+							"startRotationConstantMax":360,
+							"startRotationConstantSeparate":[
+								57.29578,
+								-57.29578,
+								-360
+							],
+							"startRotationConstantMinSeparate":[
+								0,
+								0,
+								0
+							],
+							"startRotationConstantMaxSeparate":[
+								57.29578,
+								-57.29578,
+								-360
+							],
+							"randomizeRotationDirection":0,
+							"startColorType":0,
+							"startColorConstant":[
+								1,
+								1,
+								1,
+								1
+							],
+							"startColorConstantMin":[
+								0.1440643,
+								1.401298E-45,
+								1.291791E+17,
+								4.591635E-41
+							],
+							"startColorConstantMax":[
+								1,
+								1,
+								1,
+								1
+							],
+							"gravity":[
+								0,
+								-9.81,
+								0
+							],
+							"gravityModifier":1.2,
+							"simulationSpace":1,
+							"scaleMode":0,
+							"playOnAwake":false,
+							"maxParticles":500,
+							"autoRandomSeed":true,
+							"randomSeed":0,
+							"emission":{
+								"enable":true,
+								"emissionRate":10,
+								"emissionRateTip":"Time",
+								"bursts":[
+									{
+										"time":0,
+										"min":0,
+										"max":80
+									}
+								]
+							},
+							"shape":{
+								"enable":true,
+								"shapeType":2,
+								"sphereRadius":0.77,
+								"sphereEmitFromShell":false,
+								"sphereRandomDirection":0,
+								"hemiSphereRadius":0.77,
+								"hemiSphereEmitFromShell":false,
+								"hemiSphereRandomDirection":0,
+								"coneAngle":7.76,
+								"coneRadius":0.77,
+								"coneLength":5,
+								"coneEmitType":0,
+								"coneRandomDirection":0,
+								"boxX":1,
+								"boxY":1,
+								"boxZ":1,
+								"boxRandomDirection":0,
+								"circleRadius":0.77,
+								"circleArc":360,
+								"circleEmitFromEdge":false,
+								"circleRandomDirection":0
+							},
+							"sizeOverLifetime":{
+								"enable":true,
+								"size":{
+									"type":0,
+									"separateAxes":false,
+									"gradient":{
+										"sizes":[
+											{
+												"key":0,
+												"value":1
+											},
+											{
+												"key":0.7823691,
+												"value":1
+											},
+											{
+												"key":1,
+												"value":0
+											}
+										]
+									},
+									"gradientX":{
+										"sizes":[
+											{
+												"key":0,
+												"value":1
+											},
+											{
+												"key":0.7823691,
+												"value":1
+											},
+											{
+												"key":1,
+												"value":0
+											}
+										]
+									},
+									"gradientY":{
+										"sizes":[
+											{
+												"key":0,
+												"value":0
+											},
+											{
+												"key":1,
+												"value":1
+											}
+										]
+									},
+									"gradientZ":{
+										"sizes":[
+											{
+												"key":0,
+												"value":0
+											},
+											{
+												"key":1,
+												"value":1
+											}
+										]
+									},
+									"constantMin":0,
+									"constantMax":0,
+									"constantMinSeparate":[
+										0,
+										0,
+										0
+									],
+									"constantMaxSeparate":[
+										0,
+										0,
+										0
+									],
+									"gradientMin":{
+										"sizes":[]
+									},
+									"gradientMax":{
+										"sizes":[
+											{
+												"key":0,
+												"value":1
+											},
+											{
+												"key":0.7823691,
+												"value":1
+											},
+											{
+												"key":1,
+												"value":0
+											}
+										]
+									},
+									"gradientXMin":{
+										"sizes":[]
+									},
+									"gradientXMax":{
+										"sizes":[
+											{
+												"key":0,
+												"value":1
+											},
+											{
+												"key":0.7823691,
+												"value":1
+											},
+											{
+												"key":1,
+												"value":0
+											}
+										]
+									},
+									"gradientYMin":{
+										"sizes":[]
+									},
+									"gradientYMax":{
+										"sizes":[
+											{
+												"key":0,
+												"value":0
+											},
+											{
+												"key":1,
+												"value":1
+											}
+										]
+									},
+									"gradientZMin":{
+										"sizes":[]
+									},
+									"gradientZMax":{
+										"sizes":[
+											{
+												"key":0,
+												"value":0
+											},
+											{
+												"key":1,
+												"value":1
+											}
+										]
+									}
+								}
+							},
+							"rotationOverLifetime":{
+								"enable":true,
+								"angularVelocity":{
+									"type":2,
+									"separateAxes":false,
+									"constant":45,
+									"constantMin":0,
+									"constantMax":45,
+									"constantSeparate":[
+										57.29578,
+										-57.29578,
+										-45
+									],
+									"constantMinSeparate":[
+										0,
+										0,
+										0
+									],
+									"constantMaxSeparate":[
+										57.29578,
+										57.29578,
+										45
+									],
+									"gradient":{
+										"angularVelocitys":[]
+									},
+									"gradientX":{
+										"angularVelocitys":[]
+									},
+									"gradientY":{
+										"angularVelocitys":[]
+									},
+									"gradientZ":{
+										"angularVelocitys":[]
+									},
+									"gradientMin":{
+										"angularVelocitys":[]
+									},
+									"gradientMax":{
+										"angularVelocitys":[]
+									},
+									"gradientXMin":{
+										"angularVelocitys":[]
+									},
+									"gradientXMax":{
+										"angularVelocitys":[]
+									},
+									"gradientYMin":{
+										"angularVelocitys":[]
+									},
+									"gradientYMax":{
+										"angularVelocitys":[]
+									},
+									"gradientZMin":{
+										"angularVelocitys":[]
+									},
+									"gradientZMax":{
+										"angularVelocitys":[]
+									}
+								}
+							},
+							"textureSheetAnimation":{
+								"enable":true,
+								"tiles":[
+									5,
+									5
+								],
+								"type":0,
+								"randomRow":true,
+								"rowIndex":0,
+								"frame":{
+									"type":2,
+									"constant":19,
+									"overTime":{
+										"frames":[]
+									},
+									"constantMin":13,
+									"constantMax":19,
+									"overTimeMin":{
+										"frames":[]
+									},
+									"overTimeMax":{
+										"frames":[]
+									}
+								},
+								"startFrame":{
+									"type":0,
+									"constant":0,
+									"constantMin":0,
+									"constantMax":0
+								},
+								"cycles":1,
+								"enableUVChannels":1,
+								"enableUVChannelsTip":"-1"
+							},
+							"renderMode":0,
+							"stretchedBillboardCameraSpeedScale":0,
+							"stretchedBillboardSpeedScale":0,
+							"stretchedBillboardLengthScale":2,
+							"sortingFudge":0,
+							"material":{
+								"type":"Laya.ShurikenParticleMaterial",
+								"path":"Assets/Material/mat_confetti.lmat"
+							}
+						},
+						"components":[],
+						"child":[]
 					}
 				]
 			},
@@ -2200,7 +2681,7 @@
 					{
 						"type":"Sprite3D",
 						"props":{
-							"name":"figures",
+							"name":"shapes",
 							"active":true,
 							"isStatic":false,
 							"layer":0,
@@ -2226,12 +2707,12 @@
 							{
 								"type":"Sprite3D",
 								"props":{
-									"name":"cricle_9",
+									"name":"circleg_8",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
-										0,
+										-28.31,
 										0,
 										0
 									],
@@ -2252,12 +2733,12 @@
 									{
 										"type":"MeshSprite3D",
 										"props":{
-											"name":"n_Figure_Circle",
+											"name":"circleg_8",
 											"active":true,
 											"isStatic":false,
 											"layer":0,
 											"position":[
-												-1.5,
+												-1.338,
 												0,
 												0
 											],
@@ -2272,416 +2753,11 @@
 												0.58,
 												1
 											],
-											"meshPath":"Assets/nfbx/n_Figure_Circle-Figure_Circle_Figure_Circle.lm",
+											"meshPath":"Assets/nfbx/circleg_8-circleg_8.lm",
 											"enableRender":true,
 											"materials":[
 												{
-													"path":"Assets/Material/mat1.lmat"
-												}
-											]
-										},
-										"components":[
-											{
-												"type":"Rigidbody3D",
-												"mass":1,
-												"isKinematic":false,
-												"restitution":0,
-												"friction":0.5,
-												"rollingFriction":0,
-												"linearDamping":0,
-												"angularDamping":0,
-												"overrideGravity":false,
-												"gravity":[
-													0,
-													0,
-													0
-												],
-												"shapes":[],
-												"isTrigger":false
-											}
-										],
-										"child":[]
-									}
-								]
-							},
-							{
-								"type":"Sprite3D",
-								"props":{
-									"name":"gear_9",
-									"active":true,
-									"isStatic":false,
-									"layer":0,
-									"position":[
-										-2.15,
-										0,
-										0
-									],
-									"rotation":[
-										0,
-										0,
-										0,
-										-1
-									],
-									"scale":[
-										1,
-										1,
-										1
-									]
-								},
-								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"n_Figure_Gear2",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												-1.5,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												0.58,
-												1
-											],
-											"meshPath":"Assets/nfbx/n_Figure_Gear2-Figure_Circle1_Figure_Circle.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/mat1.lmat"
-												}
-											]
-										},
-										"components":[
-											{
-												"type":"Rigidbody3D",
-												"mass":1,
-												"isKinematic":false,
-												"restitution":0,
-												"friction":0.5,
-												"rollingFriction":0,
-												"linearDamping":0,
-												"angularDamping":0,
-												"overrideGravity":false,
-												"gravity":[
-													0,
-													0,
-													0
-												],
-												"shapes":[],
-												"isTrigger":false
-											}
-										],
-										"child":[]
-									}
-								]
-							},
-							{
-								"type":"Sprite3D",
-								"props":{
-									"name":"slide_3",
-									"active":true,
-									"isStatic":false,
-									"layer":0,
-									"position":[
-										-4.68,
-										0,
-										0
-									],
-									"rotation":[
-										0,
-										0,
-										0,
-										-1
-									],
-									"scale":[
-										1,
-										1,
-										1
-									]
-								},
-								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"n_Figure_slides6",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												-1.6,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												0.58,
-												1
-											],
-											"meshPath":"Assets/nfbx/n_Figure_slides6-Figure_slides6_Figure_slides6.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/mat1.lmat"
-												}
-											]
-										},
-										"components":[
-											{
-												"type":"Rigidbody3D",
-												"mass":1,
-												"isKinematic":false,
-												"restitution":0,
-												"friction":0.5,
-												"rollingFriction":0,
-												"linearDamping":0,
-												"angularDamping":0,
-												"overrideGravity":false,
-												"gravity":[
-													0,
-													0,
-													0
-												],
-												"shapes":[],
-												"isTrigger":false
-											}
-										],
-										"child":[]
-									}
-								]
-							},
-							{
-								"type":"Sprite3D",
-								"props":{
-									"name":"slide_4",
-									"active":true,
-									"isStatic":false,
-									"layer":0,
-									"position":[
-										-6.97,
-										0,
-										0
-									],
-									"rotation":[
-										0,
-										0,
-										0,
-										-1
-									],
-									"scale":[
-										1,
-										1,
-										1
-									]
-								},
-								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"n_Figure_slides4",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												-1.7,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												0.58,
-												1
-											],
-											"meshPath":"Assets/nfbx/n_Figure_slides4-Figure_slides4_Figure_slides4.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/mat1.lmat"
-												}
-											]
-										},
-										"components":[
-											{
-												"type":"Rigidbody3D",
-												"mass":1,
-												"isKinematic":false,
-												"restitution":0,
-												"friction":0.5,
-												"rollingFriction":0,
-												"linearDamping":0,
-												"angularDamping":0,
-												"overrideGravity":false,
-												"gravity":[
-													0,
-													0,
-													0
-												],
-												"shapes":[],
-												"isTrigger":false
-											}
-										],
-										"child":[]
-									}
-								]
-							},
-							{
-								"type":"Sprite3D",
-								"props":{
-									"name":"spike_9",
-									"active":true,
-									"isStatic":false,
-									"layer":0,
-									"position":[
-										-8.33,
-										0,
-										0
-									],
-									"rotation":[
-										0,
-										0,
-										0,
-										-1
-									],
-									"scale":[
-										1,
-										1,
-										1
-									]
-								},
-								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"n_Figure_Spike",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												-1.5,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												0.58,
-												1
-											],
-											"meshPath":"Assets/nfbx/n_Figure_Spike-Figure_Spike_Figure_Spike.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/mat1.lmat"
-												}
-											]
-										},
-										"components":[
-											{
-												"type":"Rigidbody3D",
-												"mass":1,
-												"isKinematic":false,
-												"restitution":0,
-												"friction":0.5,
-												"rollingFriction":0,
-												"linearDamping":0,
-												"angularDamping":0,
-												"overrideGravity":false,
-												"gravity":[
-													0,
-													0,
-													0
-												],
-												"shapes":[],
-												"isTrigger":false
-											}
-										],
-										"child":[]
-									}
-								]
-							},
-							{
-								"type":"Sprite3D",
-								"props":{
-									"name":"star_8",
-									"active":true,
-									"isStatic":false,
-									"layer":0,
-									"position":[
-										-10.17,
-										0,
-										0
-									],
-									"rotation":[
-										0,
-										0,
-										0,
-										-1
-									],
-									"scale":[
-										1,
-										1,
-										1
-									]
-								},
-								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"n_Figure_Star",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												-1.7,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												0.58,
-												1
-											],
-											"meshPath":"Assets/nfbx/n_Figure_Star-Figure_Star_Figure_Star.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/mat1.lmat"
+													"path":"Assets/Material/mat_red.lmat"
 												}
 											]
 										},
@@ -2717,7 +2793,7 @@
 									"isStatic":false,
 									"layer":0,
 									"position":[
-										-13.03,
+										-4.7,
 										0,
 										0
 									],
@@ -2738,7 +2814,7 @@
 									{
 										"type":"MeshSprite3D",
 										"props":{
-											"name":"n_Figure_Triangle",
+											"name":"trigangle_3",
 											"active":true,
 											"isStatic":false,
 											"layer":0,
@@ -2758,11 +2834,902 @@
 												0.58,
 												1
 											],
-											"meshPath":"Assets/nfbx/n_Figure_Triangle-Figure_Triangle_Figure_Triangle.lm",
+											"meshPath":"Assets/nfbx/trigangle_3-trigangle_3.lm",
 											"enableRender":true,
 											"materials":[
 												{
-													"path":"Assets/Material/mat1.lmat"
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circlef_4",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-25.69,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circlef_4",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.246,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circlef_4-circlef_4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"slide_3",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										3.1,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"slide_3",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.6,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/slide_3-slide_3.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circlee_4",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-23.64,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circlee_4",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.245,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circlee_4-circlee_4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circled_4",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-21.48,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circled_4",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.4,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circled_4-circled_4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"slide_4",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										7,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"slide_4",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.7,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/slide_4-Figure_slides4_Figure_slides4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circlec_8",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-19.35,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circlec_8",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.227,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circlec_8-circlec_8.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circleb_4",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-17.4,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circleb_4",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.246,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circleb_4-circleb_4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"star_8",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										12.7,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"star_8",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.7,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/star_8-Figure_Star_Figure_Star.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circlea_4",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-14.71,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circlea_4",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.246,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circlea_4-circlea_4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"gear_9",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										19.9,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"gear_9",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.5,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/gear_9-Figure_Circle1_Figure_Circle.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"cricle_9",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										23,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"cricle_9",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.5,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/cricle_9-Figure_Circle_Figure_Circle.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
 												}
 											]
 										},
@@ -2795,7 +3762,7 @@
 					{
 						"type":"Sprite3D",
 						"props":{
-							"name":"inq",
+							"name":"paint",
 							"active":true,
 							"isStatic":false,
 							"layer":0,
@@ -2857,14 +3824,14 @@
 					{
 						"type":"Sprite3D",
 						"props":{
-							"name":"FINISH",
+							"name":"floor_finish",
 							"active":true,
 							"isStatic":false,
 							"layer":0,
 							"position":[
 								-15.21,
 								-12.88,
-								-8.75
+								-11.41
 							],
 							"rotation":[
 								0,
@@ -2881,15 +3848,15 @@
 						"components":[],
 						"child":[
 							{
-								"type":"Sprite3D",
+								"type":"MeshSprite3D",
 								"props":{
-									"name":"FINISH_OBJ",
+									"name":"top",
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
 										0,
-										-0.54,
+										-0.7,
 										0
 									],
 									"rotation":[
@@ -2900,306 +3867,55 @@
 									],
 									"scale":[
 										1,
-										3.5828,
+										1,
 										1
+									],
+									"meshPath":"Assets/nfbx/top-top1.lm",
+									"enableRender":true,
+									"materials":[
+										{
+											"path":"Assets/Material/mat_finish_edge.lmat"
+										}
 									]
 								},
 								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"Cylinder_edge",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												0,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1.4,
-												0.65,
-												1.4
-											],
-											"meshPath":"Assets/nfbx/Cylinder_edge_0-Cylinder_edge_0.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/matFinish.lmat"
-												}
-											]
-										},
-										"components":[],
-										"child":[]
-									},
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"Cylinder_top",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												0,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1.4,
-												0.65,
-												1.4
-											],
-											"meshPath":"Assets/nfbx/Cylinder_top_0-Cylinder_top_0.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/matFinish3.lmat"
-												}
-											]
-										},
-										"components":[],
-										"child":[]
-									}
-								]
-							}
-						]
-					},
-					{
-						"type":"ShuriKenParticle3D",
-						"props":{
-							"name":"PSystemFinish",
-							"active":true,
-							"isStatic":false,
-							"layer":0,
-							"position":[
-								0,
-								0,
-								0
-							],
-							"rotation":[
-								0,
-								0,
-								0,
-								-1
-							],
-							"scale":[
-								1,
-								1,
-								1
-							],
-							"isPerformanceMode":true,
-							"duration":1.8,
-							"looping":false,
-							"prewarm":false,
-							"startDelayType":0,
-							"startDelay":0.3,
-							"startDelayMin":0,
-							"startDelayMax":0.3,
-							"startLifetimeType":2,
-							"startLifetimeConstant":1.7,
-							"startLifetimeConstantMin":1.3,
-							"startLifetimeConstantMax":1.7,
-							"startLifetimeGradient":{
-								"startLifetimes":[]
+								"child":[]
 							},
-							"startLifetimeGradientMin":{
-								"startLifetimes":[]
-							},
-							"startLifetimeGradientMax":{
-								"startLifetimes":[]
-							},
-							"startSpeedType":2,
-							"startSpeedConstant":9,
-							"startSpeedConstantMin":7,
-							"startSpeedConstantMax":9,
-							"threeDStartSize":true,
-							"startSizeType":2,
-							"startSizeConstant":0.15,
-							"startSizeConstantMin":0.25,
-							"startSizeConstantMax":0.15,
-							"startSizeConstantSeparate":[
-								0.15,
-								0.15,
-								0.4
-							],
-							"startSizeConstantMinSeparate":[
-								0.25,
-								0.25,
-								0.7
-							],
-							"startSizeConstantMaxSeparate":[
-								0.15,
-								0.15,
-								0.4
-							],
-							"threeDStartRotation":true,
-							"startRotationType":2,
-							"startRotationConstant":600.0002,
-							"startRotationConstantMin":200,
-							"startRotationConstantMax":600.0002,
-							"startRotationConstantSeparate":[
-								200,
-								-300,
-								-600.0002
-							],
-							"startRotationConstantMinSeparate":[
-								699.9998,
-								-899.9998,
-								-200
-							],
-							"startRotationConstantMaxSeparate":[
-								200,
-								-300,
-								-600.0002
-							],
-							"randomizeRotationDirection":0,
-							"startColorType":4,
-							"startColorConstant":[
-								1204094,
-								4.591495E-41,
-								-2.157531E+20,
-								4.591495E-41
-							],
-							"startColorConstantMin":[
-								1158323,
-								1.401298E-45,
-								-2.160619E+20,
-								4.591495E-41
-							],
-							"startColorConstantMax":[
-								1204094,
-								4.591495E-41,
-								-2.157531E+20,
-								4.591495E-41
-							],
-							"gravity":[
-								0,
-								-9.81,
-								0
-							],
-							"gravityModifier":0.88,
-							"simulationSpace":0,
-							"scaleMode":1,
-							"playOnAwake":false,
-							"maxParticles":444,
-							"autoRandomSeed":true,
-							"randomSeed":0,
-							"emission":{
-								"enable":true,
-								"emissionRate":0,
-								"emissionRateTip":"Time",
-								"bursts":[]
-							},
-							"shape":{
-								"enable":true,
-								"shapeType":2,
-								"sphereRadius":2.2,
-								"sphereEmitFromShell":false,
-								"sphereRandomDirection":0,
-								"hemiSphereRadius":2.2,
-								"hemiSphereEmitFromShell":false,
-								"hemiSphereRandomDirection":0,
-								"coneAngle":5.93,
-								"coneRadius":2.2,
-								"coneLength":5,
-								"coneEmitType":0,
-								"coneRandomDirection":0,
-								"boxX":1,
-								"boxY":1,
-								"boxZ":1,
-								"boxRandomDirection":0,
-								"circleRadius":2.2,
-								"circleArc":360,
-								"circleEmitFromEdge":false,
-								"circleRandomDirection":0
-							},
-							"rotationOverLifetime":{
-								"enable":true,
-								"angularVelocity":{
-									"type":0,
-									"separateAxes":true,
-									"constant":200,
-									"constantMin":0,
-									"constantMax":200,
-									"constantSeparate":[
-										600.0002,
-										-400,
-										-200
-									],
-									"constantMinSeparate":[
+							{
+								"type":"MeshSprite3D",
+								"props":{
+									"name":"edge",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
 										0,
-										0,
+										-0.7,
 										0
 									],
-									"constantMaxSeparate":[
-										600.0002,
-										400,
-										200
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
 									],
-									"gradient":{
-										"angularVelocitys":[]
-									},
-									"gradientX":{
-										"angularVelocitys":[]
-									},
-									"gradientY":{
-										"angularVelocitys":[]
-									},
-									"gradientZ":{
-										"angularVelocitys":[]
-									},
-									"gradientMin":{
-										"angularVelocitys":[]
-									},
-									"gradientMax":{
-										"angularVelocitys":[]
-									},
-									"gradientXMin":{
-										"angularVelocitys":[]
-									},
-									"gradientXMax":{
-										"angularVelocitys":[]
-									},
-									"gradientYMin":{
-										"angularVelocitys":[]
-									},
-									"gradientYMax":{
-										"angularVelocitys":[]
-									},
-									"gradientZMin":{
-										"angularVelocitys":[]
-									},
-									"gradientZMax":{
-										"angularVelocitys":[]
-									}
-								}
-							},
-							"renderMode":0,
-							"stretchedBillboardCameraSpeedScale":0,
-							"stretchedBillboardSpeedScale":0,
-							"stretchedBillboardLengthScale":2,
-							"sortingFudge":0,
-							"material":{
-								"type":"Laya.ShurikenParticleMaterial",
-								"path":"Assets/Material/parts_finish.lmat"
+									"scale":[
+										1,
+										1,
+										1
+									],
+									"meshPath":"Assets/nfbx/edge-edge.lm",
+									"enableRender":true,
+									"materials":[
+										{
+											"path":"Assets/Material/Default_Material.lmat"
+										}
+									]
+								},
+								"components":[],
+								"child":[]
 							}
-						},
-						"components":[],
-						"child":[]
+						]
 					}
 				]
 			}

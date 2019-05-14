@@ -1,11 +1,10 @@
 {
 	"version":"LAYAMATERIAL:02",
 	"props":{
-		"type":"Laya.BlinnPhongMaterial",
-		"name":"mat_paninter",
+		"type":"Laya.ShurikenParticleMaterial",
 		"renderStates":[
 			{
-				"cull":2,
+				"cull":0,
 				"blend":1,
 				"srcBlend":770,
 				"dstBlend":771,
@@ -13,27 +12,23 @@
 				"depthTest":515
 			}
 		],
-		"enableVertexColor":false,
+		"name":"mat_ps_alpha",
 		"alphaTest":false,
-		"alphaTestValue":0.5,
 		"renderQueue":3000,
-		"albedoIntensity":1.2,
-		"enableLighting":true,
-		"shininess":0.35,
 		"textures":[
 			{
-				"name":"albedoTexture",
-				"path":"../Texture2D/block_painter.png",
+				"name":"texture",
+				"path":"../Texture2D/circle.png",
 				"constructParams":[
-					512,
-					512,
+					72,
+					72,
 					1,
-					true
+					false
 				],
 				"propertyParams":{
 					"filterMode":1,
-					"wrapModeU":0,
-					"wrapModeV":0,
+					"wrapModeU":1,
+					"wrapModeV":1,
 					"anisoLevel":1
 				}
 			}
@@ -49,20 +44,12 @@
 				]
 			},
 			{
-				"name":"specularColor",
+				"name":"color",
 				"value":[
+					0.5,
 					0.5,
 					0.5,
 					0.5
-				]
-			},
-			{
-				"name":"albedoColor",
-				"value":[
-					1,
-					1,
-					1,
-					1
 				]
 			}
 		],

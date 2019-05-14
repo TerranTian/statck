@@ -7,15 +7,32 @@
 				"cull":0,
 				"blend":1,
 				"srcBlend":770,
-				"dstBlend":771,
+				"dstBlend":1,
 				"depthWrite":false,
 				"depthTest":515
 			}
 		],
-		"name":"matBall",
+		"name":"mat_ps_bg",
 		"alphaTest":false,
 		"renderQueue":3000,
-		"textures":[],
+		"textures":[
+			{
+				"name":"texture",
+				"path":"../Texture2D/circle.png",
+				"constructParams":[
+					72,
+					72,
+					1,
+					false
+				],
+				"propertyParams":{
+					"filterMode":1,
+					"wrapModeU":1,
+					"wrapModeV":1,
+					"anisoLevel":1
+				}
+			}
+		],
 		"vectors":[
 			{
 				"name":"tilingOffset",
@@ -36,6 +53,8 @@
 				]
 			}
 		],
-		"defines":[]
+		"defines":[
+			"ADDTIVEFOG"
+		]
 	}
 }

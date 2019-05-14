@@ -17,9 +17,9 @@
 		"alphaTest":false,
 		"alphaTestValue":0.5,
 		"renderQueue":2000,
-		"albedoIntensity":1,
+		"albedoIntensity":1.41,
 		"enableLighting":true,
-		"shininess":1,
+		"shininess":0.257,
 		"textures":[],
 		"vectors":[
 			{
@@ -34,9 +34,9 @@
 			{
 				"name":"specularColor",
 				"value":[
-					0.5,
-					0.5,
-					0.5
+					0,
+					0,
+					0
 				]
 			},
 			{
