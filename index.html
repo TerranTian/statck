@@ -40,6 +40,21 @@
         ];
         
         window.$sys_fire_red = "#ff0000"
+        if(window.kaixin){
+        	kaixin.initializeAsync()
+        	.then(function(){
+        		return kaixin.startGameAsync()
+        	})
+        	.then(function(){
+        		kaixin.showLoading("0","0")
+        	})
+        	.catch(function(e){
+        		console.log("err",e)
+        	})
+        }else{
+        	console.log("no kaixin")
+        }
+
 
     </script>
     <script type="text/javascript" src="index.js"></script>
