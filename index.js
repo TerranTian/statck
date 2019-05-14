@@ -1,5 +1,5 @@
 !function(){
-    window.$sys_args={p:"KXIOS",v:"0.0.69"};
+    window.$sys_args={p:"KXIOS",v:"0.0.70"};
     window.$sys_progress = 0;
     window.$sys_app_id = "257395441815477";
     window.$sys_app_name = "Stack Hit 3D";
