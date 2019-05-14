@@ -28,26 +28,10 @@
 </head>
 
 <body>
-    <script src="https://cdn.feidou.com/yttx/kxsmallgame/h5sdk/2.0/libs/kaixinios.js"></script>
-    <script>
-        if(window.kaixin){
-        	kaixin.initializeAsync()
-        	.then(function(){
-        		return kaixin.startGameAsync()
-        	})
-        	.then(function(){
-        		kaixin.showLoading("0","0")
-        	})
-        	.catch(function(e){
-        		console.log("err",e)
-        	})
-        }else{
-        	console.log("no kaixin")
-        }
-    </script>
     <script>
         window.$sys_prefer_skin = [];
     </script>
+    <script src="//connect.facebook.net/en_US/fbinstant.6.2.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </body>
 
