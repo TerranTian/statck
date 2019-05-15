@@ -304,10 +304,10 @@
 										"color":{
 											"type":1,
 											"constant":[
-												0.1495207,
-												4.591635E-41,
-												1.290254E+17,
-												4.591635E-41
+												5.996172E+17,
+												1.401298E-45,
+												0,
+												0
 											],
 											"gradient":{
 												"alphas":[
@@ -348,16 +348,16 @@
 												]
 											},
 											"constantMin":[
-												0.1440643,
+												0.1588001,
 												1.401298E-45,
-												1.291791E+17,
-												4.591635E-41
+												0.1151835,
+												1.401298E-45
 											],
 											"constantMax":[
-												0.1495207,
-												4.591635E-41,
-												1.290254E+17,
-												4.591635E-41
+												5.999196E+17,
+												1.401298E-45,
+												0,
+												0
 											],
 											"gradientMax":{
 												"alphas":[
@@ -644,9 +644,9 @@
 										1
 									],
 									"startColorConstantMin":[
-										0.1440643,
+										0.003659581,
 										1.401298E-45,
-										1.291791E+17,
+										4.95732E+18,
 										4.591635E-41
 									],
 									"startColorConstantMax":[
@@ -1044,9 +1044,9 @@
 										1
 									],
 									"startColorConstantMin":[
-										0.1440643,
+										0.003659581,
 										1.401298E-45,
-										1.291791E+17,
+										4.95732E+18,
 										4.591635E-41
 									],
 									"startColorConstantMax":[
@@ -1101,9 +1101,9 @@
 										"color":{
 											"type":1,
 											"constant":[
-												0.1495207,
+												0.003744837,
 												4.591635E-41,
-												1.290254E+17,
+												4.947477E+18,
 												4.591635E-41
 											],
 											"gradient":{
@@ -1145,15 +1145,15 @@
 												]
 											},
 											"constantMin":[
-												0.1440643,
+												0.003659581,
 												1.401298E-45,
-												1.291791E+17,
+												4.95732E+18,
 												4.591635E-41
 											],
 											"constantMax":[
-												0.1495207,
+												0.003744837,
 												4.591635E-41,
-												1.290254E+17,
+												4.947477E+18,
 												4.591635E-41
 											],
 											"gradientMax":{
@@ -1433,9 +1433,9 @@
 										1
 									],
 									"startColorConstantMin":[
-										0.1440643,
+										0.003659581,
 										1.401298E-45,
-										1.291791E+17,
+										4.95732E+18,
 										4.591635E-41
 									],
 									"startColorConstantMax":[
@@ -1490,9 +1490,9 @@
 										"color":{
 											"type":3,
 											"constant":[
-												0.1495207,
+												0.003744837,
 												4.591635E-41,
-												1.290254E+17,
+												4.947477E+18,
 												4.591635E-41
 											],
 											"gradient":{
@@ -1534,15 +1534,15 @@
 												]
 											},
 											"constantMin":[
-												0.1440643,
+												0.003659581,
 												1.401298E-45,
-												1.291791E+17,
+												4.95732E+18,
 												4.591635E-41
 											],
 											"constantMax":[
-												0.1495207,
+												0.003744837,
 												4.591635E-41,
-												1.290254E+17,
+												4.947477E+18,
 												4.591635E-41
 											],
 											"gradientMin":{
@@ -1859,9 +1859,9 @@
 												1
 											],
 											"startColorConstantMin":[
-												0.1440643,
+												0.003659581,
 												1.401298E-45,
-												1.291791E+17,
+												4.95732E+18,
 												4.591635E-41
 											],
 											"startColorConstantMax":[
@@ -1916,9 +1916,9 @@
 												"color":{
 													"type":1,
 													"constant":[
-														0.1495207,
+														0.003744837,
 														4.591635E-41,
-														1.290223E+17,
+														4.947283E+18,
 														4.591635E-41
 													],
 													"gradient":{
@@ -1960,15 +1960,15 @@
 														]
 													},
 													"constantMin":[
-														0.1440643,
+														0.003659581,
 														1.401298E-45,
-														1.291791E+17,
+														4.95732E+18,
 														4.591635E-41
 													],
 													"constantMax":[
-														0.1495207,
+														0.003744837,
 														4.591635E-41,
-														1.290223E+17,
+														4.947283E+18,
 														4.591635E-41
 													],
 													"gradientMax":{
@@ -2341,9 +2341,9 @@
 								1
 							],
 							"startColorConstantMin":[
-								0.1440643,
+								0.003659581,
 								1.401298E-45,
-								1.291791E+17,
+								4.95732E+18,
 								4.591635E-41
 							],
 							"startColorConstantMax":[
@@ -2707,87 +2707,6 @@
 							{
 								"type":"Sprite3D",
 								"props":{
-									"name":"circleg_8",
-									"active":true,
-									"isStatic":false,
-									"layer":0,
-									"position":[
-										-28.31,
-										0,
-										0
-									],
-									"rotation":[
-										0,
-										0,
-										0,
-										-1
-									],
-									"scale":[
-										1,
-										1,
-										1
-									]
-								},
-								"components":[],
-								"child":[
-									{
-										"type":"MeshSprite3D",
-										"props":{
-											"name":"circleg_8",
-											"active":true,
-											"isStatic":false,
-											"layer":0,
-											"position":[
-												-1.338,
-												0,
-												0
-											],
-											"rotation":[
-												0,
-												0,
-												0,
-												-1
-											],
-											"scale":[
-												1,
-												0.58,
-												1
-											],
-											"meshPath":"Assets/nfbx/circleg_8-circleg_8.lm",
-											"enableRender":true,
-											"materials":[
-												{
-													"path":"Assets/Material/mat_red.lmat"
-												}
-											]
-										},
-										"components":[
-											{
-												"type":"Rigidbody3D",
-												"mass":1,
-												"isKinematic":false,
-												"restitution":0,
-												"friction":0.5,
-												"rollingFriction":0,
-												"linearDamping":0,
-												"angularDamping":0,
-												"overrideGravity":false,
-												"gravity":[
-													0,
-													0,
-													0
-												],
-												"shapes":[],
-												"isTrigger":false
-											}
-										],
-										"child":[]
-									}
-								]
-							},
-							{
-								"type":"Sprite3D",
-								"props":{
 									"name":"trigangle_3",
 									"active":true,
 									"isStatic":false,
@@ -3078,6 +2997,87 @@
 												1
 											],
 											"meshPath":"Assets/nfbx/circlee_4-circlee_4.lm",
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+									"name":"circleg_8",
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+										-28.31,
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+											"name":"circleg_8",
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+												-1.338,
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+											"meshPath":"Assets/nfbx/circleg_8-circleg_8.lm",
 											"enableRender":true,
 											"materials":[
 												{
