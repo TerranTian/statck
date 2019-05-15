@@ -1,7 +1,7 @@
 {
   "urls": [
-    "/Users/terrantian/Documents/game_dev/stack_ball/fb_stack/bin/audio/audio.mp3",
-    "/Users/terrantian/Documents/game_dev/stack_ball/fb_stack/bin/audio/audio.webm"
+    "/Users/terrantian/Documents/game_dev/stack_ball/fb_stack/bin/audio/audio.webm",
+    "/Users/terrantian/Documents/game_dev/stack_ball/fb_stack/bin/audio/audio.mp3"
   ],
   "sprite": {
     "ball_brick": [
