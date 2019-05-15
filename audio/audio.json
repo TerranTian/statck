@@ -1,0 +1,36 @@
+{
+  "urls": [
+    "/Users/terrantian/Documents/game_dev/stack_ball/fb_stack/bin/audio/audio.mp3",
+    "/Users/terrantian/Documents/game_dev/stack_ball/fb_stack/bin/audio/audio.webm"
+  ],
+  "sprite": {
+    "ball_brick": [
+      0,
+      372.2448979591837
+    ],
+    "bg_music": [
+      2000,
+      1356.5759637188205
+    ],
+    "brick": [
+      5000,
+      607.3469387755104
+    ],
+    "fire_loop": [
+      7000,
+      8646.507936507936
+    ],
+    "fire_start": [
+      17000,
+      1406.5079365079355
+    ],
+    "game_compl": [
+      20000,
+      2410.839002267572
+    ],
+    "game_over": [
+      24000,
+      3325.147392290248
+    ]
+  }
+}
