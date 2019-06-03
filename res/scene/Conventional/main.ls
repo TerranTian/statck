@@ -384,7 +384,11 @@
 									"startColorConstantMin":[
 										110.0109,
 										1.401298E-45,
+<<<<<<< HEAD
 										2.569759E+14,
+=======
+										2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										4.591635E-41
 									],
 									"startColorConstantMax":[
@@ -784,7 +788,11 @@
 									"startColorConstantMin":[
 										110.0109,
 										1.401298E-45,
+<<<<<<< HEAD
 										2.569759E+14,
+=======
+										2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										4.591635E-41
 									],
 									"startColorConstantMax":[
@@ -841,7 +849,11 @@
 											"constant":[
 												112.8046,
 												4.591635E-41,
+<<<<<<< HEAD
 												2.566756E+14,
+=======
+												2.564922E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"gradient":{
@@ -885,13 +897,21 @@
 											"constantMin":[
 												110.0109,
 												1.401298E-45,
+<<<<<<< HEAD
 												2.569759E+14,
+=======
+												2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"constantMax":[
 												112.8046,
 												4.591635E-41,
+<<<<<<< HEAD
 												2.566756E+14,
+=======
+												2.564922E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"gradientMax":{
@@ -1173,7 +1193,11 @@
 									"startColorConstantMin":[
 										110.0109,
 										1.401298E-45,
+<<<<<<< HEAD
 										2.569759E+14,
+=======
+										2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										4.591635E-41
 									],
 									"startColorConstantMax":[
@@ -1230,7 +1254,11 @@
 											"constant":[
 												112.8046,
 												4.591635E-41,
+<<<<<<< HEAD
 												2.566756E+14,
+=======
+												2.564922E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"gradient":{
@@ -1274,13 +1302,21 @@
 											"constantMin":[
 												110.0109,
 												1.401298E-45,
+<<<<<<< HEAD
 												2.569759E+14,
+=======
+												2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"constantMax":[
 												112.8046,
 												4.591635E-41,
+<<<<<<< HEAD
 												2.566756E+14,
+=======
+												2.564922E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"gradientMin":{
@@ -1599,7 +1635,11 @@
 											"startColorConstantMin":[
 												110.0109,
 												1.401298E-45,
+<<<<<<< HEAD
 												2.569759E+14,
+=======
+												2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												4.591635E-41
 											],
 											"startColorConstantMax":[
@@ -1656,7 +1696,11 @@
 													"constant":[
 														112.8046,
 														4.591635E-41,
+<<<<<<< HEAD
 														2.566697E+14,
+=======
+														2.564863E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 														4.591635E-41
 													],
 													"gradient":{
@@ -1700,13 +1744,21 @@
 													"constantMin":[
 														110.0109,
 														1.401298E-45,
+<<<<<<< HEAD
 														2.569759E+14,
+=======
+														2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 														4.591635E-41
 													],
 													"constantMax":[
 														112.8046,
 														4.591635E-41,
+<<<<<<< HEAD
 														2.566697E+14,
+=======
+														2.564863E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 														4.591635E-41
 													],
 													"gradientMax":{
@@ -2115,7 +2167,11 @@
 							"startColorConstantMin":[
 								110.0109,
 								1.401298E-45,
+<<<<<<< HEAD
 								2.569759E+14,
+=======
+								2.567926E+14,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 								4.591635E-41
 							],
 							"startColorConstantMax":[
@@ -2560,12 +2616,20 @@
 							{
 								"type":"Sprite3D",
 								"props":{
+<<<<<<< HEAD
 									"name":"circlev_4",
+=======
+									"name":"circlex_8",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
+<<<<<<< HEAD
 										4.07,
+=======
+										1.76,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										0,
 										0
 									],
@@ -2586,12 +2650,20 @@
 									{
 										"type":"MeshSprite3D",
 										"props":{
+<<<<<<< HEAD
 											"name":"circlev_4",
+=======
+											"name":"circlex_8",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 											"active":true,
 											"isStatic":false,
 											"layer":0,
 											"position":[
+<<<<<<< HEAD
 												-1.545,
+=======
+												-1.42,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												0,
 												0
 											],
@@ -2606,7 +2678,11 @@
 												0.58,
 												1
 											],
+<<<<<<< HEAD
 											"meshPath":"Assets/nfbx/circlev_4-circlev_4.lm",
+=======
+											"meshPath":"Assets/nfbx/circlex_8-circlex_8.lm",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 											"enableRender":true,
 											"materials":[
 												{
@@ -2641,12 +2717,20 @@
 							{
 								"type":"Sprite3D",
 								"props":{
+<<<<<<< HEAD
 									"name":"circlem_6",
+=======
+									"name":"circlev_4",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
+<<<<<<< HEAD
 										15.73,
+=======
+										4.07,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										0,
 										0
 									],
@@ -2667,12 +2751,20 @@
 									{
 										"type":"MeshSprite3D",
 										"props":{
+<<<<<<< HEAD
 											"name":"circlem_6",
+=======
+											"name":"circlev_4",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 											"active":true,
 											"isStatic":false,
 											"layer":0,
 											"position":[
+<<<<<<< HEAD
 												-1.74,
+=======
+												-1.545,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												0,
 												0
 											],
@@ -2687,7 +2779,11 @@
 												0.58,
 												1
 											],
+<<<<<<< HEAD
 											"meshPath":"Assets/nfbx/circlem_6-circlem_6.lm",
+=======
+											"meshPath":"Assets/nfbx/circlev_4-circlev_4.lm",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 											"enableRender":true,
 											"materials":[
 												{
@@ -2722,12 +2818,20 @@
 							{
 								"type":"Sprite3D",
 								"props":{
+<<<<<<< HEAD
 									"name":"trigangle_3",
+=======
+									"name":"circlem_6",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 									"active":true,
 									"isStatic":false,
 									"layer":0,
 									"position":[
+<<<<<<< HEAD
 										21.47,
+=======
+										15.73,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										0,
 										0
 									],
@@ -2748,12 +2852,20 @@
 									{
 										"type":"MeshSprite3D",
 										"props":{
+<<<<<<< HEAD
 											"name":"trigangle_3",
+=======
+											"name":"circlem_6",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 											"active":true,
 											"isStatic":false,
 											"layer":0,
 											"position":[
+<<<<<<< HEAD
 												-1.7,
+=======
+												-1.572,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 												0,
 												0
 											],
@@ -2768,7 +2880,112 @@
 												0.58,
 												1
 											],
+<<<<<<< HEAD
 											"meshPath":"Assets/nfbx/trigangle_3-trigangle_3.lm",
+=======
+											"meshPath":"Assets/nfbx/circlem_6-circlem_6.lm",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
+											"enableRender":true,
+											"materials":[
+												{
+													"path":"Assets/Material/mat_red.lmat"
+												}
+											]
+										},
+										"components":[
+											{
+												"type":"Rigidbody3D",
+												"mass":1,
+												"isKinematic":false,
+												"restitution":0,
+												"friction":0.5,
+												"rollingFriction":0,
+												"linearDamping":0,
+												"angularDamping":0,
+												"overrideGravity":false,
+												"gravity":[
+													0,
+													0,
+													0
+												],
+												"shapes":[],
+												"isTrigger":false
+											}
+										],
+										"child":[]
+									}
+								]
+							},
+							{
+								"type":"Sprite3D",
+								"props":{
+<<<<<<< HEAD
+									"name":"circlek_6",
+=======
+									"name":"trigangle_3",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
+									"active":true,
+									"isStatic":false,
+									"layer":0,
+									"position":[
+<<<<<<< HEAD
+										30.03,
+=======
+										21.47,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
+										0,
+										0
+									],
+									"rotation":[
+										0,
+										0,
+										0,
+										-1
+									],
+									"scale":[
+										1,
+										1,
+										1
+									]
+								},
+								"components":[],
+								"child":[
+									{
+										"type":"MeshSprite3D",
+										"props":{
+<<<<<<< HEAD
+											"name":"circlek_6",
+=======
+											"name":"trigangle_3",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
+											"active":true,
+											"isStatic":false,
+											"layer":0,
+											"position":[
+<<<<<<< HEAD
+												-1.82,
+=======
+												-1.7,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
+												0,
+												0
+											],
+											"rotation":[
+												0,
+												0,
+												0,
+												-1
+											],
+											"scale":[
+												1,
+												0.58,
+												1
+											],
+<<<<<<< HEAD
+											"meshPath":"Assets/nfbx/circlek_6-circlek_6.lm",
+=======
+											"meshPath":"Assets/nfbx/trigangle_3-trigangle_3.lm",
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 											"enableRender":true,
 											"materials":[
 												{
@@ -2808,7 +3025,11 @@
 									"isStatic":false,
 									"layer":0,
 									"position":[
+<<<<<<< HEAD
+										-11.24,
+=======
 										30.03,
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 										0,
 										0
 									],
@@ -2834,7 +3055,7 @@
 											"isStatic":false,
 											"layer":0,
 											"position":[
-												-1.82,
+												-1.545,
 												0,
 												0
 											],
@@ -2884,6 +3105,8 @@
 							{
 								"type":"Sprite3D",
 								"props":{
+<<<<<<< HEAD
+=======
 									"name":"circled_4",
 									"active":true,
 									"isStatic":false,
@@ -2965,6 +3188,7 @@
 							{
 								"type":"Sprite3D",
 								"props":{
+>>>>>>> 2ae4b1272db952a2406a53904b502db15140b5ca
 									"name":"circlec_8",
 									"active":true,
 									"isStatic":false,
